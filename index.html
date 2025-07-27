@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BGU Digital Library - Institutional Repository</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo-section">
+                <div class="logo"></div>
+                <div class="logo-text">
+                    <h1>BGU Digital Library</h1>
+                    <div class="subtitle">Institutional Repository</div>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="pages/browse.html">Browse</a></li>
+                <li><a href="pages/collections.html">Collections</a></li>
+                <li><a href="#help">Help</a></li>
+                <li><a href="pages/about.html">About</a></li>
+            </ul>
+            <div class="header-actions">
+                <a href="#" class="btn-outline">Sign In</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero-section">
+            <h1>Institutional Repository</h1>
+            <p>Access scholarly works, research publications, and academic resources from Birla Global University's faculty and students.</p>
+            
+            <div class="search-container">
+                <input type="text" class="search-box" placeholder="Search repository..." id="searchInput">
+                <button class="search-btn" onclick="performSearch()">Search</button>
+            </div>
+        </section>
+
+        <div class="stats-section">
+            <div class="stat-card">
+                <div class="stat-number">15,847</div>
+                <div class="stat-label">Total Items</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">2,350</div>
+                <div class="stat-label">Publications</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">8,920</div>
+                <div class="stat-label">Research Papers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">1,245</div>
+                <div class="stat-label">Theses</div>
+            </div>
+        </div>
+
+        <div class="collections-section">
+            <div class="collections-main">
+                <div class="collections-header">
+                    <h2>Browse Collections</h2>
+                    <p class="collections-subtitle">Explore organized collections of academic materials and research resources.</p>
+                </div>
+                
+                <div class="collection-item" style="--delay: 1" onclick="browseCollection('faculty')">
+                    <div class="collection-info">
+                        <h3>Faculty Publications</h3>
+                        <p>Research papers and academic publications by BGU faculty members.</p>
+                    </div>
+                    <div class="collection-count">2,350</div>
+                </div>
+
+                <div class="collection-item" style="--delay: 2" onclick="browseCollection('theses')">
+                    <div class="collection-info">
+                        <h3>Theses & Dissertations</h3>
+                        <p>Master's and doctoral research by BGU students.</p>
+                    </div>
+                    <div class="collection-count">1,245</div>
+                </div>
+
+                <div class="collection-item" style="--delay: 3" onclick="browseCollection('conference')">
+                    <div class="collection-info">
+                        <h3>Conference Proceedings</h3>
+                        <p>Papers from academic conferences and symposiums.</p>
+                    </div>
+                    <div class="collection-count">890</div>
+                </div>
+
+                <div class="collection-item" style="--delay: 4" onclick="browseCollection('reports')">
+                    <div class="collection-info">
+                        <h3>Research Reports</h3>
+                        <p>Technical reports and project outcomes.</p>
+                    </div>
+                    <div class="collection-count">567</div>
+                </div>
+
+                <div class="collection-item" style="--delay: 5" onclick="browseCollection('books')">
+                    <div class="collection-info">
+                        <h3>Books & Monographs</h3>
+                        <p>Authored works and comprehensive studies.</p>
+                    </div>
+                    <div class="collection-count">234</div>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <h3>Discover</h3>
+                
+                <div class="sidebar-section">
+                    <h4>Top Authors</h4>
+                    <div class="sidebar-item">
+                        <a href="#author1">Dr. Rajesh Kumar</a>
+                        <span class="sidebar-count">45</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <a href="#author2">Prof. Anita Sharma</a>
+                        <span class="sidebar-count">38</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <a href="#author3">Dr. Suresh Patel</a>
+                        <span class="sidebar-count">32</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <a href="#author4">Prof. Meera Singh</a>
+                        <span class="sidebar-count">29</span>
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <h4>Subject Areas</h4>
+                    <div class="sidebar-item">
+                        <a href="#subject1">Management</a>
+                        <span class="sidebar-count">523</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <a href="#subject2">Engineering</a>
+                        <span class="sidebar-count">445</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <a href="#subject3">Computer Science</a>
+                        <span class="sidebar-count">389</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <a href="#subject4">Economics</a>
+                        <span class="sidebar-count">267</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <a href="#subject5">Law</a>
+                        <span class="sidebar-count">189</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
