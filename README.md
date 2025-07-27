@@ -15,7 +15,7 @@ A modern, responsive web interface for Birla Global University's digital library
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://yourusername.github.io/bgu-digital-library)
+[View Live Demo](https://ayushduttatreya.github.io/bgu-digital-library)
 
 ## 📁 Project Structure
 
@@ -67,7 +67,7 @@ bgu-digital-library/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/bgu-digital-library.git
+git clone https://github.com/ayushduttatreya/bgu-digital-library.git
 cd bgu-digital-library
 ```
 
@@ -147,7 +147,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Ayush duttatreya panigrahi** - *Initial work* - [ayushduttatreya](https://github.com/ayushduttatreya)
 
 ## 🙏 Acknowledgments
 
