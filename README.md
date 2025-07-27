@@ -48,13 +48,6 @@ bgu-digital-library/
 - **Google Fonts**: Inter font family for clean typography
 - **Responsive Design**: Mobile-first approach with CSS Grid and Flexbox
 
-## 📊 Repository Statistics
-
-- **Total Items**: 15,847
-- **Publications**: 2,350
-- **Research Papers**: 8,920
-- **Theses**: 1,245
-
 ## 🎨 Design Features
 
 - **Color Scheme**: Professional blue palette with orange accents
