@@ -157,7 +157,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email your-email@domain.com or create an issue in this repository.
+For support, email ayush.duttatreya@gmail.com or create an issue in this repository.
 
 ## 🔗 Related Links
 
